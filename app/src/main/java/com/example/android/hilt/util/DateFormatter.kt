@@ -23,6 +23,7 @@ import java.util.Date
 /**
  * String formatter for the log dates.
  */
+@Injest
 class DateFormatter {
 
     @SuppressLint("SimpleDateFormat")
