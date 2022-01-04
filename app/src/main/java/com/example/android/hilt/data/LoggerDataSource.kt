@@ -1,4 +1,7 @@
 package com.example.android.hilt.data
 
-class LoggerDataSource {
+interface LoggerDataSource {
+    fun addLog(msg: String)
+    fun getAllLogs(callback: (List<Log>) -> Unit)
+    fun removeLogs()
 }
